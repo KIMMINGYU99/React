@@ -1,0 +1,40 @@
+#cardBox {
+  width: 300px;
+  height: 350px;
+
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#cardBox > #top {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px dotted grey;
+}
+
+#cardBox > #top > #title {
+  display: flex;
+  justify-content: space-between;
+}
+#cardBox > #bottom > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+}
+#cardBox > #bottom > ul > li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.selecttop {
+  background-color: black;
+  color: white;
+}
+.cardBoxColor {
+  background-color: grey;
+}

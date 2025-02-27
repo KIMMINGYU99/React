@@ -2,6 +2,7 @@ import { useState } from "react";
 
 const ChangeColor = (props) => {
   const colorArr = ["pink", "blue", "yellow"];
+
   const [num, setNum] = useState(0);
   const Change = () =>
     setNum((prev) => (prev == colorArr.length - 1 ? (prev = 0) : prev + 1));
@@ -10,7 +11,7 @@ const ChangeColor = (props) => {
     <div>
       <div
         style={{
-          width: "300pv",
+          width: "300px",
           height: "300px",
           backgroundColor: colorArr[num],
         }}

@@ -18,7 +18,7 @@ const Quiz2 = () => {
       <button onClick={plus}>+</button>
       <button onClick={minus}>-</button>
       <button onClick={reset}>reset</button>
-      <div style={{ color: num2 >= 10 ? "blue" : "black" }}>{num2}</div>
+      <div>{num2}</div>
     </>
   );
 };
